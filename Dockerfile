@@ -1,2 +1,1 @@
-FROM nginxbase:latest
-ADD nginx-proxy.conf /opt/app-root/etc/nginx.default.d/nginx-proxy.conf
+FROM public.ecr.aws/lambda/dotnet:6.2023.02.03.12
